@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+</head>
+<body>
+    <!--Header  / Navbar-->
+    <header>
+        <nav class="navbar section-content">
+            <a href="#" class="nav-logo">
+                <h2 class="logo-text">🏴‍☠️ Baratie</h2>
+            </a>
+            <ul class="nav-menu">
+                <button id="menu-close-button" class="fas fa-times"></button>
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu" class="nav-link">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials" class="nav-link">StrawHats</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#gallery" class="nav-link">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <button id="menu-open-button" class="fas fa-bars"></button>
+        </nav>
+    </header>
+
+    <main>
+      <div class="loader-wrapper">
+  <span class="loader"></span>
+</div>
+        <!-- hero section -->
+        <section id="home" class="hero-section">
+            <div class="compass-north">N</div>
+            <div class="compass-east">E</div>
+            <div class="compass-south">S</div>
+            <div class="compass-west">W</div>
+            <div class="treasure-x">X</div>
+            <div class="treasure-x">X</div>
+            <div class="treasure-x">X</div>
+            <div class="section-content">
+                <div class="hero-details">
+                    <h2 class="title">🏴‍☠️ Baratie Coffee</h2>
+                     <h3 class="subtitle">Set sail for the best coffee in the Grand Line!</h3>
+                     <p class="description">
+                        Welcome to Baratie Coffee, where every cup is an adventure! From the East Blue to the New World, we serve the finest coffee that even the Pirate King would approve of.
+                     </p>
+                     <div class="buttons">
+                         <a href="#" class="button order-now">Order Now</a>
+                         <a href="#" class="button contact-us">Contact Us</a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper">
+                    <img src="main.jpg" alt="hero" class="hero-image">
+                </div>
+            </div>
+        </section>
+         <!--About Section-->
+         <section id="about" class="about-section">
+            <div class="section-content">
+                <div class="about-image-wrapper">
+                    <img src="image.png" alt="About" class="about-image">
+                </div>
+                <div class="about-details">
+                    <h2 class="section-title">Ship's Log</h2>
+                    <p class="text">At Baratie Coffee, we believe every cup tells a story of adventure! Just like the Straw Hat crew, we've sailed through the Grand Line to find the finest coffee beans from every sea. From the mysterious East Blue to the treacherous New World, our coffee brings the spirit of freedom and adventure to every sip. Whether you're a Marine or a Pirate, everyone is welcome aboard our floating coffee paradise!
+                    </p>
+                    <div class="social-link-list">
+                        <a href="https://www.instagram.com/asurwase_/" class="social-link">
+                            <i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="social-link">
+                            <i class="fa-brands fa-facebook"></i></a>
+                        <a href="#" class="social-link">
+                            <i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+         </section>
+         <!--Menu Section-->
+         <section id="menu" class="menu-section">
+            <h1 class="section-title">Crew's Favorites</h1>
+            <div class="section-content">
+                <ul class="menu-list">
+                <li class="menu-item">
+                    <img src="hot-beverages.png" alt="Straw Hat Special" class="menu-image">
+                    <h3 class="name">Straw Hat Special</h3>
+                    <p class="text">Our signature coffee blend that gives you the power to become Pirate King!</p>
+                </li>
+                <li class="menu-item">
+                    <img src="cold-beverages.png" alt="Devil Fruit Latte" class="menu-image">
+                    <h3 class="name">Devil Fruit Latte</h3>
+                    <p class="text">Colorful specialty drink with mysterious powers and amazing taste.</p>
+                </li>
+                <li class="menu-item">
+                    <img src="refreshment.png" alt="Going Merry Mocha" class="menu-image">
+                    <h3 class="name">Going Merry Mocha</h3>
+                    <p class="text">Caramel mocha that sails smoothly through your taste buds.</p>
+                </li>
+                <li class="menu-item">
+                    <img src="special-combo.png" alt="Thousand Sunny Cappuccino" class="menu-image">
+                    <h3 class="name">Thousand Sunny Cappuccino</h3>
+                    <p class="text">Golden foam design that shines like the sun on the sea.</p>
+                </li>
+                <li class="menu-item">
+                    <img src="desserts.png" alt="Pirate King's Treasure" class="menu-image">
+                    <h3 class="name">Pirate King's Treasure</h3>
+                    <p class="text">Gold-dusted dessert that's worth more than all the berries in the world!</p>
+                </li>
+                <li class="menu-item">
+                    <img src="burger-frenchfries.png" alt="Marine Justice" class="menu-image">
+                    <h3 class="name">Marine Justice</h3>
+                    <p class="text">Strong black coffee that enforces absolute justice in your morning routine.</p>
+                </li>
+                </ul>
+            </div>
+         </section>
+         <!--Testimonials section-->
+         <section id="testimonials" class="testimonials-section">
+    <h2 class="section-title">StrawHats</h2>
+    <div class="swiper testimonials-slider">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide testimonial">
+          <img src="luffy.jpg" alt="User 1" class="user-image">
+          <h3 class="name">Monkey D. Luffy</h3>
+          <i class="feedback">"Loved the french roast. Perfectly balanced and rich. Will order again."</i>
+        </div>
+        <div class="swiper-slide testimonial">
+          <img src="rorzo.jpg" alt="User 2" class="user-image">
+          <h3 class="name">Roronoa Zoro</h3>
+          <i class="feedback">"I never get lost in flavors. This coffee is the best guide."</i>
+        </div>
+        <div class="swiper-slide testimonial">
+          <img src="sanji.jpg" alt="User 3" class="user-image">
+          <h3 class="name">Vinsmoke Sanji</h3>
+          <i class="feedback">"As a chef, I approve. Rich aroma and full-bodied flavor."</i>
+        </div>
+        <div class="swiper-slide testimonial">
+          <img src="niko.jpg" alt="User 4" class="user-image">
+          <h3 class="name">Nico Robin</h3>
+          <i class="feedback">"Subtle notes of cocoa and nuts. Truly delightful."</i>
+        </div>
+        <div class="swiper-slide testimonial">
+          <img src="nami.webp" alt="User 5" class="user-image">
+          <h3 class="name">Nami</h3>
+          <i class="feedback">"Best thing I've spent my money on. Worth every berry!"</i>
+        </div>
+        <div class="swiper-slide testimonial">
+          <img src="ussop.jpg" alt="User 6" class="user-image">
+          <h3 class="name">Usopp</h3>
+          <i class="feedback">"This coffee gives me the courage to face giants! No lies!"</i>
+        </div>
+        <div class="swiper-slide testimonial">
+          <img src="chopper.webp" alt="User 7" class="user-image">
+          <h3 class="name">Tony Tony Chopper</h3>
+          <i class="feedback">"The hot chocolate is as sweet as cotton candy! So good!"</i>
+        </div>
+        <div class="swiper-slide testimonial">
+          <img src="franky.jpg" alt="User 8" class="user-image">
+          <h3 class="name">Franky</h3>
+          <i class="feedback">"SUUUUUPER coffee! This is the best! Can I get a refill?"</i>
+        </div>
+        <div class="swiper-slide testimonial">
+          <img src="brook.jpg" alt="User 9" class="user-image">
+          <h3 class="name">Brook</h3>
+          <i class="feedback">"Yohohoho! Even a skeleton can taste this delicious coffee!"</i>
+        </div>
+      </div>
+
+      <!-- Arrows and Pagination -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+
+
+
+<!-- Gallery Section -->
+<section id="gallery" class="gallery-section">
+  <h2 class="section-title">Treasure Gallery</h2>
+  <div class="section-content">
+    <ul class="gallery-list">
+      <li class="gallery-item"><img src="gallery-1.jpg" alt="Gallery" class="gallery-image" /></li>
+      <li class="gallery-item"><img src="gallery-2.jpg" alt="Gallery" class="gallery-image" /></li>
+      <li class="gallery-item"><img src="gallery-3.jpg" alt="Gallery" class="gallery-image" /></li>
+      <li class="gallery-item"><img src="gallery-4.jpg" alt="Gallery" class="gallery-image" /></li>
+      <li class="gallery-item"><img src="gallery-5.jpg" alt="Gallery" class="gallery-image" /></li>
+    </ul>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="section-content">
+    <h2 class="section-title">Send Message in a Bottle</h2>
+    <div class="contact-container">
+      <div class="contact-info-section">
+        <h3 class="contact-subtitle">Join Our Crew</h3>
+        <p class="contact-description">Ready to set sail with the best coffee crew? Send us a message and we'll respond as soon as possible!</p>
+        <ul class="contact-info-list">
+          <li class="contact-info">
+            <div class="contact-icon">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div class="contact-details">
+              <h4>Address</h4>
+              <span>123 College Road, City Name</span>
+            </div>
+          </li>
+          <li class="contact-info">
+            <div class="contact-icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div class="contact-details">
+              <h4>Email</h4>
+              <span>contact@gp-connect.in</span>
+            </div>
+          </li>
+          <li class="contact-info">
+            <div class="contact-icon">
+              <i class="fas fa-phone-alt"></i>
+            </div>
+            <div class="contact-details">
+              <h4>Phone</h4>
+              <span>+91 9876543210</span>
+            </div>
+          </li>
+          <li class="contact-info">
+            <div class="contact-icon">
+              <i class="fas fa-clock"></i>
+            </div>
+            <div class="contact-details">
+              <h4>Hours</h4>
+              <span>Mon - Fri: 9:00 AM - 5:00 PM</span>
+            </div>
+          </li>
+        </ul>
+        <div class="social-links">
+          <h4>Follow Us</h4>
+          <div class="social-icons">
+            <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/asurwase_/" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="contact-form-section">
+        <h3 class="contact-subtitle">Send us a Message</h3>
+        <form class="contact-form">
+          <div class="form-group">
+            <label for="name">Crew Member Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your pirate name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Den Den Mushi Address</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+          </div>
+          <div class="form-group">
+            <label for="phone">Transponder Snail Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <select id="subject" name="subject" required>
+              <option value="">Select a subject</option>
+              <option value="general">General Inquiry</option>
+              <option value="reservation">Ship's Table Reservation</option>
+              <option value="catering">Crew Catering Services</option>
+              <option value="feedback">Bounty Report</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Message in a Bottle</label>
+            <textarea id="message" name="message" rows="5" placeholder="Write your message to the crew..." required></textarea>
+          </div>
+          <button type="submit" class="submit-btn">
+            <i class="fas fa-paper-plane"></i>
+            Cast Message to Sea
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+    </main>
+    
+    <!-- Scroll to Top Button -->
+    <button id="scroll-to-top" class="scroll-to-top-btn">
+      <i class="fas fa-chevron-up"></i>
+    </button>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+
+<!-- Script to Fade Out Loader -->
+<script>
+  $(window).on("load", function () {
+    console.log("Page fully loaded");
+    $(".loader-wrapper").fadeOut("slow", function () {
+      $(this).remove(); // optional: removes the loader from DOM after fade out
+    });
+  });
+</script>
+
+</body>
+
+</html>
